@@ -1,4 +1,4 @@
-## store project - react
+## store project - react - coderhouse preentregas
 ## vite project
 ## yarn
 ## "scripts": {
