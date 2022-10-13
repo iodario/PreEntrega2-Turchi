@@ -24,26 +24,26 @@ function NavBar() {
                         <Nav.Link href="#action2">About us</Nav.Link>
                         <NavDropdown title="Categories" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#action3">
-                            Laptops & Computers
+                                Laptops & Computers
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#action4">
-                            TVs & Projectors
-                            </NavDropdown.Item>                            
-                            <NavDropdown.Item href="#action5">
-                            Headphones
+                                TVs & Projectors
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#action5">
-                            Cellphones
+                                Headphones
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#action5">
-                            Tablets & E-Readers
+                                Cellphones
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="#action5">
+                                Tablets & E-Readers
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="#contact">
                             Contact us
                         </Nav.Link>
                     </Nav>
-                   
+
                     <Form className="d-flex">
                         <Form.Control
                             type="search"
@@ -51,9 +51,9 @@ function NavBar() {
                             className="me-2"
                             aria-label="Search"
                         />
-                        <Button className ="search-button">Search</Button>
+                        <Button variant="dark" style={{ marginRight: '50px' }} className="search-button">Search</Button>
                     </Form>
-                    <CartWidget style = {{marginLeft: '50px'}}/>
+                    <CartWidget />
                 </Navbar.Collapse>
             </Container>
         </Navbar>
